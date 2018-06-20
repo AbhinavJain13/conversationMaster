@@ -3,7 +3,9 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.1.2",
@@ -18,7 +20,8 @@
     "nano": "^6.2.0",
     "uuid": "^2.0.3",
     "vcap_services": "^0.2.0",
-    "watson-developer-cloud": "^2.6.2"
+    "watson-developer-cloud": "^2.6.2",
+    "snyk": "^1.83.0"
   },
   "repository": {},
   "engines": {
@@ -28,5 +31,6 @@
   "main": "server.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
