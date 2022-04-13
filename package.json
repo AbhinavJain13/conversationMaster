@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "^3.2.2",
     "basic-auth-connect": "^1.0.0",
     "body-parser": "^1.15.2",
     "botmaster": "^2.1.0",
